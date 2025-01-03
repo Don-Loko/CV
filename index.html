@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moje CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="style.css" rel="stylesheet" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        background: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      aside {
+        width: 30%;
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      aside img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 3px solid #fff;
+      }
+
+      aside h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        display: inline-block;
+      }
+
+      aside p,
+      aside a {
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.8;
+      }
+
+      .tech-skills-block ul,
+      .soft-skills-block ul {
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 10px;
+      }
+
+      .main-content {
+        width: 70%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main-content section {
+        margin-bottom: 30px;
+      }
+
+      .main-content h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .main-content h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        color: #007bff;
+      }
+
+      .main-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      .main-content p,
+      .main-content ul {
+        font-size: 14px;
+        line-height: 1.8;
+        color: #555;
+      }
+
+      .main-content ul {
+        padding-left: 20px;
+        margin-top: 10px;
+      }
+
+      .highlight {
+        color: #007bff;
+        font-weight: bold;
+      }
+
+      .job-list li {
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+      .job-list li::before {
+        content: "•";
+        position: absolute;
+        left: -15px;
+        top: 0;
+        color: #007bff;
+      }
+
+      .contact-block,
+      .tech-skills-block,
+      .soft-skills-block {
+        margin-bottom: 20px;
+      }
+
+      .projects a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .projects a:hover {
+        text-decoration: underline;
+      }
+
+      .secondary-header {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <img
+          src="C:\Users\piotr\OneDrive\Desktop\cv\photo.jpg"
+          alt="Zdjęcie Piotra Kosidlaka"
+        />
+        <h2>Piotr Kosidlak</h2>
+        <p>GOIT Data Analyst Student</p>
+
+        <div class="contact-block">
+          <h2 class="secondary-header">Contacts</h2>
+          <p>
+            <strong>Tel:</strong>
+            <a href="tel:+48 696 024 951">+48 696 024 951</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:piotrkosidlak@gmail.com">piotrkosidlak@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="tech-skills-block">
+          <h2 class="secondary-header">Technical Skills</h2>
+          <ul>
+            <li>SQL</li>
+            <li>Google Analytics</li>
+            <li>Jupyter Notebook</li>
+            <li>Tableau</li>
+            <li>Microsoft Excel</li>
+            <li>Power BI</li>
+          </ul>
+        </div>
+
+        <div class="soft-skills-block">
+          <h2 class="secondary-header">Soft Skills</h2>
+          <ul>
+            <li>Problem-solving</li>
+            <li>Adaptability</li>
+            <li>Communication</li>
+            <li>Time management</li>
+            <li>Critical thinking</li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <section>
+          <h1>About Me</h1>
+          <p>
+            As a 21-year-old starting my career journey, I have recently
+            completed the Data Analytics course from GOIT to build a strong
+            foundation in this field. My decision to pursue data analytics stems
+            from a lifelong fascination with mathematics, numbers, and the
+            relationships between them, a passion that dates back to my school
+            years. I am a fast learner and highly adaptable, as demonstrated
+            during my 16-month work experience abroad, where I successfully
+            contributed to approximately 15 different projects depending on
+            demand. During this time, I also completed my data analytics
+            training without difficulties, showcasing my ability to balance
+            multiple responsibilities effectively. I am deeply committed to
+            personal growth, reflected in my five years of dedication to
+            fitness, a year of learning Spanish, and my growing interest in the
+            stock market. In my spare time, I enjoy editing drone footage and
+            reading books, especially on psychology and self-development.
+          </p>
+        </section>
+
+        <section class="Media">
+          <h2>Media</h2>
+          <p>
+            <a href="https://profile.rocketjobs.pl/profile">LinkedIn Profile</a>
+          </p>
+          <p><a href="https://cryptohub.goit.global/">GitHub Profile</a></p>
+        </section>
+
+        <section>
+          <h2>Work Experience</h2>
+          <h3>Assembly Worker <span class="highlight">Order Contract</span></h3>
+          <p>April 2024 - December 2024 | Belgium</p>
+          <ul class="job-list">
+            <li>
+              Conducted thorough cleaning processes for wind turbine bearings,
+              ensuring their readiness for subsequent production stages at ZF
+              Antwerpen.
+            </li>
+            <li>Participated in assembly of precision training targets.</li>
+            <li>
+              Operated a paint line and performed a quality control of buttons
+              for premium automobiles at freemach.
+            </li>
+          </ul>
+          <h3>
+            Quality Control, Logistics Support
+            <span class="highlight">Order Contract</span>
+          </h3>
+          <p>February 2023 - November 2023 | Belgium</p>
+          <ul class="job-list">
+            <li>Quality control of car parts at Toyota Diest NV.</li>
+            <li>Provided supplies for production at Punch Powertrain NV.</li>
+            <li>Controlled production defects at Audi Brussels.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <h3>Rzeszów University of Technology</h3>
+          <p>October 2022 - January 2023</p>
+          <ul>
+            <li>
+              Completed one semester focusing on technical disciplines such as
+              mechanics, physics, and aerodynamics.
+            </li>
+          </ul>
+          <h3>Samorządowe Liceum Ogólnokształcące</h3>
+          <p>Mathematics, Physics, and English</p>
+          <ul>
+            <li>Developed strong analytical and problem-solving skills.</li>
+            <li>Gained proficiency in English for technical environments.</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
